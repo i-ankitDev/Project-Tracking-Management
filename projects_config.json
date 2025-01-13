@@ -1,0 +1,22 @@
+{
+    "projects": [
+      {
+        "name": "A",
+        "url": "http://url-to-get-server-status",
+        "payload": {
+          "payload" : "payload"
+        },
+        "script_path_start": "/path/of/directory/start_file",
+        "script_path_stop": "/path/of/directory/stop_file",
+        "log_path":"/path/of/directory/log_file",
+        "instance": [
+          { "host": "192.168.1.19", "port": 1 },
+          { "host": "192.168.1.19", "port": 2},
+          { "host": "192.168.1.19", "port": 3 },
+          { "host": "192.168.1.19", "port": 4 },
+          { "host": "192.168.1.19", "port": 5 }
+        ]
+      }
+    ]
+  }
+  
