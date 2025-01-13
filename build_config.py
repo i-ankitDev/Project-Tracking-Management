@@ -36,12 +36,8 @@ def parse_projects(projects):
     for project in projects:
         try:
             project_name = project.get("name")
-            project_code = project.get("projectCode")
-            server = project.get("server")
-            version = project.get("version")
             url = project.get("url")
             payload = project.get("payload", {})
-            uploads_path = project.get("uploadsPath")
             script_start = project.get("script_path_start")
             script_stop = project.get("script_path_stop")
             log_path = project.get("log_path")
